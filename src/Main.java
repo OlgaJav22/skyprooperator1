@@ -43,5 +43,32 @@ public class Main {
        } else if (age1 > 24) {
            System.out.println("Если возраст человека равен "  + age1 + ", то ему нужно ходить на работу");
        }
+
+       //задача 1.2.
+
+        int years1 = 14;
+       if (years1>5 && years1<14) {
+           System.out.println("Тебе " + years1+ " лет, и ты  можешь кататься только в сопровождении взрослого");
+       } else if (years1>=14){
+           System.out.println("Тебе " + years1+ " лет, и ты  можешь кататься без сопровождения взрослого");
+       } else if (years1 <=5) {
+           System.out.println("Тебе " + years1+ " лет, ты не можешь кататься");
+       }
+
+       //задача 1.3.
+
+       int one = 3;
+       int two = 25;
+       int free = 8;
+
+       if (one > two && one>free) {
+           System.out.println("Самое большое число " + one);
+       } else if (two>one && two>free) {
+           System.out.println("Самое большое число " + two);
+       } else if (free >one && free>two) {
+           System.out.println("Самое большое число " + free);
+       }
+
     }
+
 }
