@@ -30,5 +30,18 @@ public class Main {
        } else if (totalSeats <60) {
             System.out.println("В вагоне есть еще сидячие места");
         }
+
+       //задача 1.3.
+
+        int age1 = 19;
+       if (age1 >=2 && age1 <=6) {
+           System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в детский сад");
+       } else if (age1 >= 7 && age1 <=18) {
+           System.out.println("Если возраст человека равен "  + age1+ ", то ему нужно ходить в школу");
+       } else if (age1 > 18 && age1 <=24) {
+           System.out.println("Если возраст человека равен "  + age1 + ", то ему нужно ходить в университет");
+       } else if (age1 > 24) {
+           System.out.println("Если возраст человека равен "  + age1 + ", то ему нужно ходить на работу");
+       }
     }
 }
